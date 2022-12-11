@@ -17,6 +17,10 @@
     --fonte-destaque: 'Bebas Neue', cursive;
 }
 
+body {
+    height: 100vh;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -33,10 +37,6 @@ header > h1 {
     font-family: var(--fonte-destaque);
     font-size: 2.2em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 20%);
-}
-
-body {
-    height: 100vh;
 }
 
 main {
@@ -56,27 +56,27 @@ main > h2 {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
 }
 
-.formulario {
+form {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 10px;
 }
 
-.formulario a {
+form a {
     color: rgb(46, 46, 191);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
 }
 
-.formulario a:hover {
+form a:hover {
     color: blue;
 }
 
-.campo-email > label, .campo-senha > label {
+.campo-email label, .campo-senha label {
     display: none;
 }
 
-.campo-email > input, .campo-senha > input {
+form [type='email'], form [type='password'] {
     width: 220px;
     border-radius: 10px;
     padding: 10px;
@@ -84,16 +84,16 @@ main > h2 {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
 }
 
-.campo-senha > input {
+form [type='password'] {
     margin-bottom: 10px;
 }
 
-.campo-lembrar-senha, .campo-esqueceu-senha {
+.campo-lembrar-senha {
     font-size: 0.8em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
 }
 
-.botao {
+form [type='submit'] {
     width: 240px;
     padding: 10px;
     margin: 10px 0px;
@@ -101,21 +101,12 @@ main > h2 {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 35%);
 }
 
-.botao:hover {
+form [type='submit']:hover {
     background-color: var(--cor0);
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.campo-criar-nova-conta {
+    font-size: 0.8em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
+}

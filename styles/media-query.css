@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+    }
+
+}
+
+/*
+    Criar media query para Desktops/ telas grandes
+*/
+@media screen and (min-width: 1024px) {
+    
+    main {
+        left: calc(300px - 150px + 2%);
+
+    }
+
+    main > h2 {
+        font-size: 2em;
+    }
+
+    form [type='email'], form [type='password'] {
+        width: 300px;
+    }
+
+    form [type='submit'] {
+        width: 320px;
+    }
+
+    form {
+        font-size: 1.17em;
+    }
+
+    #background {
+        width: 60%;
+        height: 100vh;
+        background: url('../images/background-desktop.jpg') no-repeat center center / cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+}

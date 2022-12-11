@@ -4,55 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conecta</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link rel="stylesheet" href="styles/media-query.css" media="screen">
 </head>
 <body>
     <header>
-        <img src="imagens/logo.png" alt="logo">
+        <img src="images/logo.png" alt="logo">
         <h1>Conecta</h1>
     </header>
 
+    <div id="background">
+        <!--Aqui onde fica imagem para desktops-->>
+    </div>
+
     <main>
-        <h2 class="subtitulo">Bem-vindo ao Conecta</h2>
+        <h2>Bem-vindo ao Conecta</h2>
         <form action="fake.php" method="post" autocomplete="on">
-
-            <div class="formulario">
-
-                <div class="campo-email">
-                    <label for="iemail">E-mail:</label>
-                    <input type="email" name="email" id="iemail" placeholder="E-mail" required>
-                </div>
-                <div class="campo-senha">
-                    <label for="isenha">Senha:</label>
-                    <input type="password" name="senha" id="isenha" placeholder="********" minlength="8" maxlength="20" required>
-                </div>
-                
-                <div class="campo-lembrar-senha">
-                    <input type="checkbox" name="lembrar-senha" id="ilembrar-senha">
-                    <label for="ilembrar-senha">Lembrar senha</label>
-
-                    <a href="#">Esqueceu a senha?</a> 
-                </div>
-
-                <input class="botao" type="submit" value="Entrar">
-
-                <div class="campo-esqueceu-senha">
-                    
-                    <p>Não tem conta? <a href="#">Criar nova conta</a></p>
-                </div>
-                    
+            <div class="campo-email">
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" placeholder="E-mail" required>
             </div>
-    
+
+            <div class="campo-senha">
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" placeholder="********" minlength="8" maxlength="20" required>
+            </div>
+            
+            <div class="campo-lembrar-senha">
+                <input type="checkbox" name="lembrar-senha" id="ilembrar-senha">
+                <label for="ilembrar-senha">Lembrar senha</label>
+
+                <a href="#">Esqueceu a senha?</a> 
+            </div>
+
+            <input type="submit" value="Entrar">
+
+            <div class="campo-criar-nova-conta">
+                <p>Não tem conta? <a href="#">Criar nova conta</a></p>
+            </div>    
         </form>
-
-
-
-
-
-     
-
-
     </main>
 </body>
 </html>
