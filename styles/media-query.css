@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
 
     body {
         background-image: linear-gradient(to right, var(--cor0), var(--cor2));
@@ -12,7 +12,7 @@
     Criar media query para Desktops/ telas grandes
 */
 @media screen and (min-width: 1024px) {
-    
+
     main {
         left: calc(300px - 150px + 2%);
 
