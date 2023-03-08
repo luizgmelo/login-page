@@ -14,8 +14,9 @@ A login page with screen adaptation, built with HTML and CSS.
 
 <br>
 
-![login-page-desktop](https://user-images.githubusercontent.com/88911920/206928495-35f7e451-78aa-4ae3-af45-dc695a9fc538.png)
-![pagina-de-login-mobilee](https://user-images.githubusercontent.com/88911920/206928493-d9d71786-ca0a-419e-94d8-0fadc137a5e0.png)
+
+![login-page-desktop](https://user-images.githubusercontent.com/88911920/223713149-692b2007-3975-4f4e-8f4b-a884cc4aab4d.png)
+![login-page-mobile](https://user-images.githubusercontent.com/88911920/223711452-d12eb9f8-c201-4bb7-ba3a-f05022fea5f8.png)
 
 
 ## What is a project?
