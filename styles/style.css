@@ -72,7 +72,7 @@ form a:hover {
     color: blue;
 }
 
-.campo-email label, .campo-senha label {
+.field-email label, .field-password label {
     display: none;
 }
 
@@ -88,7 +88,7 @@ form [type='password'] {
     margin-bottom: 10px;
 }
 
-.campo-lembrar-senha {
+.field-remember-password {
     font-size: 0.8em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
 }
@@ -106,7 +106,7 @@ form [type='submit']:hover {
     cursor: pointer;
 }
 
-.campo-criar-nova-conta {
+.field-new-password {
     font-size: 0.8em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
 }

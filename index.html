@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conecta</title>
+    <title>Connect</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css" media="all">
     <link rel="stylesheet" href="styles/media-query.css" media="screen">
@@ -11,37 +11,37 @@
 <body>
     <header>
         <img src="images/logo.png" alt="logo">
-        <h1>Conecta</h1>
+        <h1>Connect</h1>
     </header>
 
     <div id="background">
-        <!--Aqui onde fica imagem para desktops-->
+        <!--here stay image for display desktop-->
     </div>
 
     <main>
-        <h2>Bem-vindo ao Conecta</h2>
+        <h2>Welcome the Connect</h2>
         <form action="fake.php" method="post" autocomplete="on">
-            <div class="campo-email">
+            <div class="field-email">
                 <label for="iemail">E-mail:</label>
-                <input type="email" name="email" id="iemail" placeholder="E-mail" required>
+                <input type="email" name="email" placeholder="E-mail" required>
             </div>
 
-            <div class="campo-senha">
-                <label for="isenha">Senha:</label>
-                <input type="password" name="senha" id="isenha" placeholder="********" minlength="8" maxlength="20" required>
+            <div class="field-password">
+                <label for="ipassword">Password:</label>
+                <input type="password" name="password" placeholder="********" minlength="8" maxlength="20" required>
             </div>
             
-            <div class="campo-lembrar-senha">
-                <input type="checkbox" name="lembrar-senha" id="ilembrar-senha">
-                <label for="ilembrar-senha">Lembrar senha</label>
+            <div class="field-remember-password">
+                <input type="checkbox" name="remember-password" id="iremember-password">
+                <label for="iremember-password">Remember-me</label>
 
-                <a href="#">Esqueceu a senha?</a> 
+                <a href="#">Forgot password?</a> 
             </div>
 
-            <input type="submit" value="Entrar">
+            <input type="submit" value="Log In">
 
-            <div class="campo-criar-nova-conta">
-                <p>Não tem conta? <a href="#">Criar nova conta</a></p>
+            <div class="field-new-password">
+                <p>Don't have account? <a href="#">Sing up</a></p>
             </div>    
         </form>
     </main>
